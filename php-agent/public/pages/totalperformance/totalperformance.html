@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>整线总业绩</title>
+    <link rel="stylesheet" type="text/css" href="../../app.css?rev=@@hash"/>
+    <link rel="stylesheet" type="text/css" href="totalperformance.css?rev=@@hash"/>
+    <link rel="stylesheet" href="../../utils/plugs/mescroll/mescroll.min.css?rev=@@hash">
+    <link rel="stylesheet" type="text/css" href="../../utils/plugs/datePicker/picker.css?rev=@@hash"/>
+    <script src="../../app.js?rev=@@hash"></script>
+</head>
+<body class="gs-layout" data-layout="100*750">
+
+<div class="gs-wrap">
+    <header class="gs-nav-bar gs-nav-bar-fixed">
+        <a href="javascript:;" class="gs-navBar-item gs-go-index">
+            <i class="gs-icon icon-return"></i>
+        </a>
+        <div class="gs-center">
+            <span class="gs-center-title">整线总业绩</span>
+        </div>
+        <a href="javascript:;" class="gs-navBar-item2 gs-js-item">
+            <i class="gs-icon icon-return2"></i>
+        </a>
+    </header>
+    <div class="gs-wrap-cont gs-game-record">
+        <div class="mescroll-show-left">
+            <div class="f-tac gs-subordinate-agent">下级代理</div>
+            <ul>
+            </ul>
+        </div>
+        <div class="mescroll-show-conten"></div>
+        <!--滑动区域-->
+        <div id="mescroll" class="mescroll mescroll-show-right">
+            <!--固定区域-->
+            <div id="navWarp" class="nav-sticky">
+                <div class="aui-flex aui-flex-mar b-line hide">
+                    <div class="aui-flex-head">游戏ID：</div>
+                    <div class="aui-flex-box">
+                        <input type="text" id="income-details-date-starts" class="aui-flex-search"
+                               placeholder="请输入直属下级游戏ID">
+                    </div>
+                </div>
+
+                <div class="aui-flex aui-flex-mar b-line">
+                    <div class="aui-flex-head">开始时间：</div>
+                    <div class="aui-flex-box">
+                        <input type="text" id="income-details-date-start" readonly="readonly" class="aui-flex-search"
+                               placeholder="请选择时间">
+                    </div>
+                </div>
+                <div class="aui-flex aui-flex-mar b-line">
+                    <div class="aui-flex-head">结束时间：</div>
+                    <div class="aui-flex-box">
+                        <input type="text" id="income-details-date" readonly="readonly" class="aui-flex-search"
+                               placeholder="请选择时间">
+                    </div>
+                </div>
+                <div class="aui-flex-button-box mb20">
+                    <button class="aui-flex-button-btn" id="aui-flex-button-btn">查询</button>
+                </div>
+                <div class="aui-flex aui-flex-mar b-line gs-row  f-toe gs-yesrse-list mb20">
+                    <div class="gs-col-4 f-tar pr20">该时段总业绩为：</div>
+                    <div class="gs-col-8  gs-total-performance">-</div>
+                </div>
+                <div id="navContent" class="nav">
+                    <ul class="gs-nav-cat f-cb">
+                        <li>游戏ID</li>
+                        <li>昵称</li>
+                        <li>类型</li>
+                        <li>业绩</li>
+                        <li>操作</li>
+                    </ul>
+                </div>
+            </div>
+            <!--upscrollWarp用于装载上拉进度和数据列表,避免清空列表不满屏,导致点击悬浮菜单时会滑下来-->
+            <div id="upscrollWarp">
+                <!--展示上拉加载的数据列表-->
+                <ul id="dataList" class="data-list gs-table-tbody"></ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="../../utils/plugs/layer.mobile/layer.js?rev=@@hash"></script>
+<script src="../../utils/plugs/mescroll/mescroll.js?rev=@@hash"></script>
+<script src="../../utils/plugs/datePicker/datePicker.min.js?rev=@@hash"></script>
+
+
+<script src="../../app-ui.js?rev=@@hash"></script>
+
+<script src="totalperformance.js?rev=@@hash"></script>
+
+</body>
+</html>

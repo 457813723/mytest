@@ -1,0 +1,57 @@
+//**app.wxss**/
+@import "base";
+.make-row(@gutter: 0) {
+  display:block;
+  margin:0px;
+  }
+.make-grid-columns() {
+  .col(@index) {
+    @item:~".@{gs}col-@{index}";
+    .col((@index + 1), @item);
+    }
+  .col(@index, @list) when (@index =< @grid-columns){
+    @item:~".@{gs}col-@{index}";
+    .col((@index + 1), ~"@{list}, @{item}");
+    }
+  .col(@index, @list) when (@index > @grid-columns){
+    @{list}{
+      overflow:hidden;
+      }
+    }
+  .col(1);
+  }
+.mixin-loop (@i,@type) when (@i>0) and (@type=col) {
+  .@{gs}@{type}-@{i}{
+    width:100% / (12 / @i );
+    float:left;
+    position:relative;
+    min-height:1px;
+    }
+  .mixin-loop(@i - 1, @type);
+  }
+.mixin-loop2 (@i,@type) when (@i>0) and (@type = offset) {
+  .@{gs}col-@{type}-@{i}{
+    margin-left:100% / (12 / @i );
+    }
+  .mixin-loop2(@i - 1, @type);
+  }
+.@{gs}row{
+  .make-row();
+  }
+.@{gs}box{
+  font-family:-apple-system-font, "微软雅黑", sans-serif;
+  font-size:0.14rem;
+  &:after{
+    clear:both;
+    }
+  &:before,
+  &:after{
+    display:table;
+    content:" ";
+    }
+  }
+.mixin-loop(@grid-columns, col);
+.mixin-loop2(@grid-columns, offset);
+::after, ::before{
+  .prefix(box-sizing, border-box);
+  }

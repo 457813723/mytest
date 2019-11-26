@@ -1,0 +1,288 @@
+body.gs-layout:before {
+  position: absolute;
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 9999;
+}
+body.gs-bg-default {
+  background: #fff;
+}
+body.gs-bg {
+  background: #f6f5fb;
+}
+body.gs-bg2 {
+  background: #0a8fef;
+}
+body.gs-bg3 {
+  background: #f5f5fa;
+}
+input::-webkit-input-placeholder {
+  font-size: 0.24rem;
+}
+input::-webkit-input-placeholder {
+  font-size: 0.24rem;
+}
+input::-moz-placeholder {
+  font-size: 0.24rem;
+}
+input:-ms-input-placeholder {
+  font-size: 0.24rem;
+}
+.gs-wrap-cont {
+  color: white;
+  font-size: 0.26rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.1rem;
+  height: auto;
+}
+.gs-wrap-footer {
+  z-index: 9990;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.1rem;
+  border-top: 1px solid #eee;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F8F8F8;
+}
+.gs-wrap-footer .gs-footer-a-list {
+  height: 0.9rem;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 1.5rem;
+  color: #333;
+  padding: 0.1rem 0;
+}
+.gs-wrap-footer .gs-footer-a-list img {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-bottom: 0.08rem;
+  display: block;
+  margin: 0 auto;
+}
+.gs-nav-bar {
+  font-weight: bold;
+  text-align: center;
+  z-index: 9990;
+  position: fixed;
+  color: #333;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-bottom: 1px solid #eee;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background: #fafafa;
+}
+.gs-nav-bar .gs-center {
+  text-align: center;
+  order: 2;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  align-items: center;
+  height: 0.8rem;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 0.26rem;
+  font-weight: normal;
+}
+.gs-nav-bar .gs-navBar-item {
+  padding-top: 0.09rem;
+  padding-left: 0.2rem;
+  float: left;
+  height: 0.7rem;
+}
+.gs-box-nodata {
+  vertical-align: middle;
+  font-size: 0.14rem;
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  color: #999;
+  text-rendering: optimizelegibility;
+  text-align: center;
+}
+.gs-box-nodata .gs-box-nodata-icon {
+  display: block;
+}
+.gs-box-nodata .gs-icon-nodata-130x163 {
+  width: 1.3rem;
+  height: 1.63rem;
+  margin: 0 auto 10px;
+  background: url(../../../images/goods-error.png) no-repeat transparent;
+  background-size: 100%;
+  background-size: 100% 100%;
+}
+.gs-box-nodata .gs-icon-nodata-130x163 {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0 auto 10px;
+  background: url(../../../images/loading/state_img_nothing@2x.png) no-repeat transparent;
+  background-size: 100%;
+  background-size: 100% 100%;
+}
+.gs-box-nodata .gs-box-nodata-text {
+  vertical-align: middle;
+  line-height: 1.4em;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.gs-loading {
+  text-align: center;
+  font-size: 0.16rem;
+  color: #a9a9a9;
+  margin-top: 45px;
+}
+.gs-loading i {
+  background: url(../../../images/loading/loading.gif) no-repeat transparent;
+  background-size: 100%;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.layui-m-layer-page-loaded .layui-m-layercont p {
+  color: #fff;
+}
+.gs-get-index {
+  background: #fe7e46;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fe7e46 0%, #fa4f73 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fe7e46 0%, #fa4f73 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fe7e46 0%, #fa4f73 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe7e46', endColorstr='#fa4f73', GradientType=0);
+  /* IE6-9 */
+  height: 0.48rem;
+  line-height: 0.48rem;
+  width: 1.3rem;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0;
+  text-align: center;
+  border-top-left-radius: 0.24rem;
+  border-bottom-left-radius: 0.24rem;
+}
+.gs-get-index a {
+  font-size: 0.24rem;
+  color: #fff;
+}
+.gs-table-default {
+  width: 100%;
+}
+.gs-table-default th {
+  background: #eee;
+}
+.gs-table-default th,
+.gs-table-default td {
+  padding: 0.2rem 0.1rem;
+  font-size: 0.24rem;
+  color: #333;
+}
+.gs-table-default th a,
+.gs-table-default td a {
+  color: #333;
+}
+.aui-flex-mar {
+  margin: 0 0.2rem;
+  padding: 0.15rem 0;
+}
+.aui-flex-mar .aui-flex-head {
+  width: 1.8rem;
+  font-size: 0.26rem;
+  color: #222222;
+  text-align: right;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.aui-flex-mar .aui-flex {
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+.aui-flex-mar .aui-flex-box {
+  min-width: 0;
+  font-size: 0.26rem;
+  color: #333;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.aui-flex-mar .aui-flex-search {
+  font-size: 0.24rem;
+  border: 1px solid #ededed;
+  height: 0.6rem;
+  padding: 0.2rem;
+  width: 4.8rem;
+}
+.aui-flex-mar .b-line:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #e1e1e1;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.aui-flex-button-btn {
+  text-align: center;
+  position: relative;
+  border: none;
+  pointer-events: auto;
+  width: 100%;
+  display: block;
+  font-size: 0.26rem;
+  line-height: 0.6rem;
+  margin-top: 0.5rem;
+  color: #FFF;
+  height: 0.6rem;
+  outline: none;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#60a5f5), to(#4499ff));
+  background-image: -webkit-linear-gradient(left, #60a5f5, #4499ff);
+  background-image: -moz-linear-gradient(left, #60a5f5, #4499ff);
+  background-image: linear-gradient(to right, #60a5f5, #4499ff);
+  background-color: #4499ff;
+}
+.aui-flex-button-btn:hover {
+  outline: none;
+}
+.gs-game-add-color {
+  color: #ef6152;
+}
+.gs-game-reduce-color {
+  color: #34b996;
+}
+.gs-game-flat-color {
+  color: #333;
+}
+.gs-divHeight {
+  width: 100%;
+  height: 10px;
+  background: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=ui-parts.css.map */

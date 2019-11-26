@@ -1,0 +1,96 @@
+
+.gs-table-main{
+  .gs-table-default{
+    th{text-align: center;}
+  }
+}
+.gs-yesrse-list{
+  line-height: 0.4rem;
+  padding: 0;
+}
+
+//下拉模拟列表重置
+.mescroll{
+  .gs-nav-cat{
+    display: none;
+  }
+  .gs-if-nav-0{
+    display: block;
+  }
+  .gs-if-nav-1{
+    display: block;
+  }
+  .gs-if-nav-0 li,
+  .gs-table-tbody-0 .gs-table-td{
+    &:nth-child(1) {
+      width: 1.75rem;
+    }
+    &:nth-child(2) {
+      width: 2rem;
+    }
+    &:nth-child(3) {
+      width: 1.75rem;
+    }
+    &:nth-child(4) {
+      width: 1.75rem;
+    }
+  }
+
+  .gs-if-nav-1 li,
+  .gs-table-tbody-1 .gs-table-td{
+    &:nth-child(1) {
+      width: 2.46666rem;
+    }
+    &:nth-child(2) {
+      width: 2.46666rem;
+    }
+    &:nth-child(3) {
+      width: 2.46666rem;
+    }
+    &:nth-child(4) {
+      display: none;
+    }
+
+
+  }
+
+}
+.aui-flex-mar .aui-flex-head{
+  width: 2rem;
+}
+
+
+.mescroll-show-left {
+  width: 2rem;
+  background: #d8dfe8;
+  position: fixed;
+  height: 100%;
+  font-size: 0.24rem;
+  overflow-y: auto;
+  ul{
+    li{
+      padding:0.1rem 0.05rem;
+      text-align: center;
+      color: #1786ef;
+    }
+  }
+}
+.mescroll-show-conten{
+  transition:left .4s ease-out;
+  position: fixed;
+  height: 100%;
+  z-index: 2;
+  left: 2rem;
+  background: #000;
+  opacity:0;
+
+}
+.mescroll-show-right{
+  left: 0.05rem;
+  transition:left .4s ease-out;
+}
+
+.gs-subordinate-agent{
+  font-size: 0.24rem;
+  padding:0.05rem 0;
+}

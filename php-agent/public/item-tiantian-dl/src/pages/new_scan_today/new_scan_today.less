@@ -1,0 +1,184 @@
+.gs-wrap {
+  overflow: hidden;
+}
+
+
+// 搜索
+.gs-ui-soso {
+  margin: 0.2rem auto 0.2rem;
+  padding-top: 0.1rem;
+  width: 5rem;
+
+  input {
+    border: 1px solid #ededed;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding: 0.2rem;
+    width: 4rem;
+    font-size: 0.24rem;
+
+    &::-webkit-input-placeholder {
+      font-size: 0.24rem;
+    }
+
+    &::-webkit-input-placeholder {
+      font-size: 0.24rem;
+    }
+
+    &::-moz-placeholder {
+      font-size: 0.24rem;
+    }
+
+    &:-ms-input-placeholder {
+      font-size: 0.24rem;
+    }
+  }
+
+  button {
+    height: 0.6rem;
+    left: -0.08rem;
+    //top: 0.035rem;
+    position: relative;
+  }
+}
+
+.gs-game-span {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  color: #34b996;
+
+  &.gs-game-span-red {
+    color: #ef6152;
+  }
+}
+
+.gs-ui-id {
+  p {
+    font-size: 0.26rem;
+  }
+
+  .gs-aui-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+
+    .gs-aui-flex-box {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+      min-width: 0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .gs-aui-ren-arrow {
+      text-align: right;
+      color: #808080;
+      padding-right: 13px;
+      position: relative;
+    }
+
+    .gs-b-line:after {
+      content: '';
+      position: absolute;
+      z-index: 2;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid #e2e2e2;
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+      -webkit-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+    }
+
+    .gs-aui-ren-arrow span {
+      font-size: 0.26rem;
+      color: #858d95;
+    }
+
+    .gs-aui-ren-arrow:after {
+      content: " ";
+      display: inline-block;
+      height: 9px;
+      width: 9px;
+      border-width: 1px 1px 0 0;
+      border-color: #586f81;
+      border-style: solid;
+      -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+      transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+      position: relative;
+      top: -2px;
+      position: absolute;
+      top: 50%;
+      margin-top: -4px;
+      right: 2px;
+    }
+
+  }
+
+}
+
+.gs-divHeight {
+  width: 100%;
+  height: 10px;
+  background: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+}
+
+.gs-table-main {
+  .gs-table-default {
+    th {
+      text-align: center;
+    }
+  }
+}
+
+
+//下拉模拟列表重置
+.mescroll{
+  top: 1.7rem;
+  .gs-nav-cat li,
+  .gs-table-tbody .gs-table-td{
+    &:nth-child(1) {
+      width: 1.75rem;
+    }
+    &:nth-child(2) {
+      width: 2rem;
+    }
+    &:nth-child(3) {
+      width: 1.75rem;
+    }
+    &:nth-child(4) {
+      width: 1.75rem;
+    }
+
+  }
+}
+/*菜单*/
+header .nav{
+  margin-top: 0.1rem;
+  border-bottom: 1px solid #ddd;
+  height: 0.6rem;
+  line-height: 0.6rem;
+}
+header .nav p{
+  display: inline-block;
+  width: 2.4rem;
+  padding: 0;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.26rem;
+}
+header .nav .active{
+  border-bottom: 1px solid #428bca;
+  color: #428bca;
+}
