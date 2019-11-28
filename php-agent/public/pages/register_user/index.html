@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>登录页</title>
+    <link rel="stylesheet" type="text/css" href="../../app.css?rev=@@hash"/>
+    <link rel="stylesheet" type="text/css" href="./index.css?rev=@@hash"/>
+    <script src="../../app.js?rev=@@hash"></script>
+</head>
+<body class="gs-layout" data-layout="100*750">
+
+<div class="gs-wrap-conts ">
+    <div class="gs-wrap">
+        <div class="gs-banner-1">
+            <img src="../../images/login/top.jpg" alt="">
+        </div>
+        <div class="gs-banner-2">
+            <img src="../../images/login/main.png" alt="">
+            <div class="topLogo move">
+                <img calss="gs-download" src="../../images/login/download.png" alt="">
+            </div>
+        </div>
+        <div class="reg-form">
+            <div class="input-row">
+                <input type="number" class="numbox-input mobile" placeholder="手机号" id="mobile">
+            </div>
+            <div class="input-row">
+                <input type="number" class="numbox-input authCode" placeholder="验证码" id="authCode">
+                <button type="button" class="check-btn" id="authCodeBtn">获取验证码</button>
+                <span class="check-btn check-btn-wait hide" id="authWait">重新发送</span>
+            </div>
+            <div class="input-row">
+                <input type="text" readonly="" class="numbox-input invite_code" value="" id="invite_code">
+            </div>
+            <div class="input-row">
+                <button type="button" class="reg-btn" id="registerBtn">注册</button>
+            </div>
+        </div>
+        <div class="tips">已有账号的玩家
+            <span class="link" id="tipJump">请点这里</span>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="../../utils/plugs/layer.mobile/layer.js?rev=@@hash"></script>
+<script src="../../app-ui.js?rev=@@hash"></script>
+<script src="./index.js?rev=@@hash"></script>
+
+
+</body>
+</html>

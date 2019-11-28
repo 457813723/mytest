@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d176969d-af9e-4f33-ae47-55fa3b8b3c31" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/vendor/composer/" />
+    <ignored path="$PROJECT_DIR$/vendor/workerman/gateway-worker/" />
+    <ignored path="$PROJECT_DIR$/vendor/workerman/workerman/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Events.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Applications/account/Events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-805">
+              <caret line="201" column="27" selection-start-line="201" selection-start-column="27" selection-end-line="201" selection-end-column="27" />
+              <folding>
+                <element signature="n#addtestData#0;n#Events#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy [17].sh" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/deploy [17].sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1748">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>account</find>
+      <find>bank</find>
+      <find>check_agent_line</find>
+      <find>getRatio</find>
+      <find>rate_profit</find>
+      <find>coinbalance</find>
+      <find>gamerecord_service</find>
+      <find>$inc7</find>
+      <find>Statistics_service_gamerecord</find>
+      <find>dl</find>
+      <find>command</find>
+      <find>addlog</find>
+      <find>pt_coin_distribute</find>
+      <find>var_dump</find>
+      <find>getZuozhuang</find>
+      <find>echo</find>
+      <find>var_dump(</find>
+      <find>$total_game_color_sum</find>
+      <find>var</find>
+      <find>ATTR_ERRMODE</find>
+      <find>dbh</find>
+      <find>$pdostmt</find>
+      <find>query</find>
+      <find>ERRMODE_EXCEPTION</find>
+      <find>huodong_zuozhuang</find>
+      <find>pt_give_friend_record</find>
+      <find>$redis</find>
+      <find>v_club_agent</find>
+      <find>redis_agent_detail</find>
+      <find>pt_club_agent</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\AAA\bosheng\pt_bosheng_trunk\php\php-task</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [8].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [9].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [13].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [4].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [7].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [10].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [2].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [11].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [3].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [12].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [6].php" />
+        <option value="D:/phpstudy/PHPTutorial/WWW/a.php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [7].php" />
+        <option value="$PROJECT_DIR$/Applications/monitor/start_businessworker.php" />
+        <option value="$PROJECT_DIR$/lib.php" />
+        <option value="$PROJECT_DIR$/account.php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/account [2].php" />
+        <option value="D:/phpstudy/PHPTutorial/WWW/test_order.php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [8].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [20].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [21].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [22].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [23].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [24].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [25].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [26].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [27].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [28].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [29].php" />
+        <option value="$PROJECT_DIR$/config_prod.php" />
+        <option value="$PROJECT_DIR$/service/MysqlService.php" />
+        <option value="D:/phpstudy/PHPTutorial/WWW/pdo.php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/MysqlService.php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/MysqlService [2].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [17].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/MysqlService [3].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [18].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [19].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/lib.php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [5].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [14].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [15].php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [16].php" />
+        <option value="$PROJECT_DIR$/Applications/account/Events.php" />
+        <option value="$PROJECT_DIR$/Applications/monitor/Events.php" />
+        <option value="D:/phpstudy/PHPTutorial/WWW/zs.php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/deploy [16].sh" />
+        <option value="E:/bbb/mytest/mytest/php-pay/config.php" />
+        <option value="E:/bbb/mytest/mytest/php-pay/config_pre.php" />
+        <option value="E:/bbb/mytest/mytest/php-pay/config_prod.php" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/deploy [17].sh" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/workerman/gateway-worker" />
+      <path value="$PROJECT_DIR$/vendor/workerman/workerman" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="121" />
+    <option name="y" value="36" />
+    <option name="width" value="1530" />
+    <option name="height" value="952" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="php-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Applications" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Applications" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="account" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Applications" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="monitor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Applications" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="other" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="service" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tiantian\plat_tiantian_trunk\php\php-count" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d176969d-af9e-4f33-ae47-55fa3b8b3c31" name="Default" comment="" />
+      <created>1559104101983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559104101983</updated>
+      <workItem from="1559104103077" duration="12033000" />
+      <workItem from="1559181254385" duration="207000" />
+      <workItem from="1559198037157" duration="16774000" />
+      <workItem from="1559267184816" duration="33104000" />
+      <workItem from="1559527741845" duration="5077000" />
+      <workItem from="1559553372406" duration="933000" />
+      <workItem from="1559612567995" duration="202000" />
+      <workItem from="1559631932960" duration="1965000" />
+      <workItem from="1559638368136" duration="711000" />
+      <workItem from="1559707769834" duration="3581000" />
+      <workItem from="1559719655706" duration="6895000" />
+      <workItem from="1559751698425" duration="10309000" />
+      <workItem from="1560133053727" duration="1532000" />
+      <workItem from="1560137072629" duration="16562000" />
+      <workItem from="1560218458149" duration="10852000" />
+      <workItem from="1560332624932" duration="735000" />
+      <workItem from="1560395542827" duration="24000" />
+      <workItem from="1560415726578" duration="1733000" />
+      <workItem from="1560495855439" duration="3282000" />
+      <workItem from="1560738828662" duration="17000" />
+      <workItem from="1560766410117" duration="1290000" />
+      <workItem from="1560824323656" duration="1564000" />
+      <workItem from="1560840481616" duration="7058000" />
+      <workItem from="1560997172373" duration="1260000" />
+      <workItem from="1561083470978" duration="3363000" />
+      <workItem from="1561098340335" duration="244000" />
+      <workItem from="1561443180551" duration="599000" />
+      <workItem from="1561517874797" duration="1130000" />
+      <workItem from="1561605142822" duration="2535000" />
+      <workItem from="1568947828107" duration="3127000" />
+      <workItem from="1569203802007" duration="66000" />
+      <workItem from="1570522802471" duration="11695000" />
+      <workItem from="1570676339702" duration="5522000" />
+      <workItem from="1570690040561" duration="172000" />
+      <workItem from="1571021138736" duration="67043000" />
+      <workItem from="1571710405368" duration="32078000" />
+      <workItem from="1571994757133" duration="4012000" />
+      <workItem from="1572228904916" duration="1636000" />
+      <workItem from="1572245656391" duration="224000" />
+      <workItem from="1572248665746" duration="6374000" />
+      <workItem from="1572332523769" duration="6205000" />
+      <workItem from="1572400441183" duration="6638000" />
+      <workItem from="1572491449305" duration="286000" />
+      <workItem from="1572495545700" duration="3175000" />
+      <workItem from="1572512880025" duration="18305000" />
+      <workItem from="1572608678138" duration="12104000" />
+      <workItem from="1572851331074" duration="24363000" />
+      <workItem from="1572941230528" duration="1256000" />
+      <workItem from="1572942734174" duration="1891000" />
+      <workItem from="1572963801481" duration="193000" />
+      <workItem from="1572965365813" duration="2935000" />
+      <workItem from="1572974598818" duration="1638000" />
+      <workItem from="1573198594413" duration="14585000" />
+      <workItem from="1573456254684" duration="2820000" />
+      <workItem from="1573460526882" duration="485000" />
+      <workItem from="1573461192584" duration="5269000" />
+      <workItem from="1573471609405" duration="24862000" />
+      <workItem from="1573696868192" duration="630000" />
+      <workItem from="1573725986323" duration="5150000" />
+      <workItem from="1574733577961" duration="1731000" />
+      <workItem from="1574763460330" duration="1076000" />
+      <workItem from="1574837710133" duration="2115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="422416000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="121" y="36" width="1530" height="952" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18229854" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Dockerfile [4]" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/account.php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/account [2].php" />
+    <entry file="file://D:/phpstudy/PHPTutorial/WWW/test_order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [7].php" />
+    <entry file="file://$PROJECT_DIR$/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [8].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [20].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [21].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [22].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [23].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [25].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [24].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [26].php" />
+    <entry file="file://$PROJECT_DIR$/monitor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [27].php" />
+    <entry file="file://$PROJECT_DIR$/xiafa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [28].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [29].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [30].php" />
+    <entry file="file://$PROJECT_DIR$/../../module/common-config/src/main/resources/tt_prod/config.properties" />
+    <entry file="file://$PROJECT_DIR$/config_prod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/MysqlService.php" />
+    <entry file="file://$PROJECT_DIR$/service/MongoService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/MysqlService [2].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/start_businessworker [2].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [18].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/MysqlService [3].php" />
+    <entry file="file://$PROJECT_DIR$/Applications/monitor/start_gateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/start_businessworker [3].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/lib.php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [19].php" />
+    <entry file="file://$PROJECT_DIR$/service/MysqlService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3335">
+          <caret line="145" column="22" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/phpstudy/PHPTutorial/WWW/pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/monitor/start_businessworker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/other/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/config [5].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [14].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [15].php" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [16].php" />
+    <entry file="file://D:/phpstudy/PHPTutorial/WWW/zs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/monitor/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="255" column="15" lean-forward="true" selection-start-line="255" selection-start-column="15" selection-end-line="255" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/Events [17].php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="370" column="67" selection-start-line="370" selection-start-column="56" selection-end-line="370" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../yh/plat_yh_trunk/php/php-log/aaa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/deploy [16].sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/account/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-805">
+          <caret line="201" column="27" selection-start-line="201" selection-start-column="27" selection-end-line="201" selection-end-column="27" />
+          <folding>
+            <element signature="n#addtestData#0;n#Events#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/bbb/mytest/mytest/php-pay/config_prod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/bbb/mytest/mytest/php-pay/config_pre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/bbb/mytest/mytest/php-pay/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/deploy [17].sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1748">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

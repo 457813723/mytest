@@ -1,0 +1,73 @@
+//Product Name Style
+//Author:Plato
+//Create Date:2017/3/9 0009 10:23
+//Last Mondify Date:2017/3/9 0009 10:23
+@gs:~"gs-";
+@grid-columns:12;
+
+@image-url:"../../../images/";
+//Colors
+@color-default: #fff;
+@color-background:#f6f5fb;
+@color-background2:#0a8fef;
+@color-background3:#f5f5fa;
+@color-boder:#f0f0f0;
+// 字体大小
+@font-size-base: 14rpx;
+@font-size-large: ceil((@font-size-base * 1.25));
+// ~18rpx
+@font-size-small: ceil((@font-size-base * 0.85));
+// ~12rpx
+@font-size-h1: floor((@font-size-base * 2.6));
+// ~36rpx
+@font-size-h2: floor((@font-size-base * 2.15));
+// ~30rpx
+@font-size-h3: ceil((@font-size-base * 1.7));
+// ~24rpx
+@font-size-h4: ceil((@font-size-base * 1.25));
+// ~18rpx
+@font-size-h5: @font-size-base;
+@font-size-h6: ceil((@font-size-base * 0.85));
+// ~12rpx
+
+//Colors
+@black: #000;
+@gray-darker: lighten(@black, 13.5%);
+// #222
+@gray-dark: lighten(@black, 20%);
+// #333
+@gray: lighten(@black, 33.5%);
+// #555
+@gray-light: lighten(@black, 60%);
+// #999
+@gray-lighter: lighten(@black, 93.5%);
+
+@brand-primary: #428bca;
+@brand-success: #5cb85c;
+@brand-info: #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger: #d9534f;
+
+//Colors
+@color-default: #fff;
+@color-default-border: #ccc;
+@color-primary: @brand-primary;
+@color-primary-border: #357ebd;
+@color-success: @brand-success;
+@color-success-border: #4cae4c;
+@color-info: @brand-info;
+@color-info-border: #46b8da;
+@color-warning: @brand-warning;
+@color-warning-border: #eea236;
+@color-danger: @brand-danger;
+@color-danger-border: #d43f3a;
+@color-link: @brand-primary;
+
+//颜色计算
+@color: @gray;
+@border-color: #eee;
+@background-color: #ffffff;
+@color01: spin(@color, 180);
+@color02: darken(spin(@color, 180), 5%);
+@color03: lighten(@color, 15%);
+@color04: lighten(@color, 30%);

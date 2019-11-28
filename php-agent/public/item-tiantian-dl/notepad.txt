@@ -1,0 +1,7 @@
+
+登录地址：http://item-tiantian-dl.com/api/index_test?rid=522311&code=522311&club_id=0&pwd=bb9dabb6c4f13107126768d97f5e805a
+http://item-tiantian-dl.com/api/index_test?rid=506023&code=506023&club_id=0&pwd=2213fe0bc0b5db38b7731bbe61d4dde6
+//https://www.qqxiuzi.cn/bianma/md5-jiami.htm
+pwd md5 生成  20190315
+
+

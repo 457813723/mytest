@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>今日推广收益</title>
+    <link rel="stylesheet" type="text/css" href="../../app.css?rev=@@hash"/>
+    <link rel="stylesheet" type="text/css" href="income_details.css?rev=@@hash"/>
+    <link rel="stylesheet" href="../../utils/plugs/mescroll/mescroll.min.css?rev=@@hash">
+    <link rel="stylesheet" type="text/css" href="../../utils/plugs/datePicker/picker.css?rev=@@hash"/>
+    <script src="../../app.js?rev=@@hash"></script>
+</head>
+<body class="gs-layout" data-layout="100*750">
+
+<div class="gs-wrap">
+    <header class="gs-nav-bar gs-nav-bar-fixed">
+        <a href="javascript:;" class="gs-navBar-item gs-go-index">
+            <i class="gs-icon icon-return"></i>
+        </a>
+        <div class="gs-center">
+            <span class="gs-center-title">今日推广收益</span>
+        </div>
+    </header>
+    <div class="gs-wrap-cont gs-game-record">
+
+
+        <!--滑动区域-->
+        <div id="mescroll" class="mescroll">
+
+            <!--固定区域-->
+            <div id="navWarp" class="nav-sticky">
+                <div class="aui-flex aui-flex-mar b-line">
+                    <div class="aui-flex-head">开始时间：</div>
+                    <div class="aui-flex-box">
+                        <input type="text" id="income-details-date-start" readonly="readonly" class="aui-flex-search" placeholder="请选择时间">
+                    </div>
+                </div>
+                <div class="aui-flex aui-flex-mar b-line">
+                    <div class="aui-flex-head">结束时间：</div>
+                    <div class="aui-flex-box">
+                        <input type="text" id="income-details-date" readonly="readonly" class="aui-flex-search" placeholder="请选择时间">
+                    </div>
+                </div>
+                <div class="aui-flex-button-box mb30">
+                    <button class="aui-flex-button-btn" id="aui-flex-button-btn">查询</button>
+                </div>
+                <div class="aui-flex aui-flex-mar b-line">
+                    <div class="aui-flex-head">该时段总收益为：</div>
+                    <div class="aui-flex-box">
+                        <span class="gs-gold-total"></span>
+                    </div>
+                </div>
+                <div id="navContent" class="nav">
+                    <ul class="gs-nav-cat f-cb">
+                        <li>玩家ID</li>
+                        <li>玩家昵称</li>
+                        <li>类型</li>
+                        <li>提成</li>
+                    </ul>
+                </div>
+            </div>
+            <!--upscrollWarp用于装载上拉进度和数据列表,避免清空列表不满屏,导致点击悬浮菜单时会滑下来-->
+            <div id="upscrollWarp">
+                <!--展示上拉加载的数据列表-->
+                <ul id="dataList" class="data-list gs-table-tbody">
+
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!--<div class="gs-table-main mt30">-->
+            <!--<table class="gs-table-default f-tac">-->
+                <!--<tr>-->
+                    <!--<th>玩家ID</th>-->
+                    <!--<th>玩家昵称</th>-->
+                    <!--<th>贡献业绩</th>-->
+                    <!--<th>玩家类型</th>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>1</td>-->
+                    <!--<td>店小二</td>-->
+                    <!--<td><b class="gs-game-add-color">+92.84</b></td>-->
+                    <!--<td>代理</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>2</td>-->
+                    <!--<td>店小二</td>-->
+                    <!--<td><b class="gs-game-add-color">+0.84</b></td>-->
+                    <!--<td>玩家</td>-->
+                <!--</tr>-->
+
+            <!--</table>-->
+        <!--</div>-->
+    </div>
+
+</div>
+
+
+<script src="../../utils/plugs/layer.mobile/layer.js?rev=@@hash"></script>
+<script src="../../utils/plugs/mescroll/mescroll.js?rev=@@hash"></script>
+<script src="../../utils/plugs/datePicker/datePicker.min.js?rev=@@hash"></script>
+<script src="../../app-ui.js?rev=@@hash"></script>
+<script src="income_details.js?rev=@@hash"></script>
+
+</body>
+</html>

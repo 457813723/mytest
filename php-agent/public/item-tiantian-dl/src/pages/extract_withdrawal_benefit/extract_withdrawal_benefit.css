@@ -1,0 +1,81 @@
+.tab-panel .tab-panel-item.tab-active {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.15s;
+  transition: -webkit-transform 0.15s;
+  transition: transform 0.15s;
+  transition: transform 0.15s, -webkit-transform 0.15s;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.tab-nav-item.tab-active:before {
+  content: '';
+  width: 50%;
+  height: 3px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -25%;
+  z-index: 4;
+  background-color: #11bf79;
+}
+.aui-palace-grid {
+  position: relative;
+  float: left;
+  width: 1.93rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0.05rem;
+  padding: 0.06rem 0;
+  border: 1px solid #eeeeee;
+  margin: 2%;
+  font-size: 0.24rem;
+  background: #eeeeee;
+}
+.aui-palace-grid.active {
+  border: 1px solid #0a8fef;
+  background: #0a8fef;
+  color: white;
+}
+.gs-extract-btn .gs-btn {
+  width: 6.9rem;
+}
+.gs-extract-btn .gs-btn-info {
+  margin-right: 0.3rem;
+}
+.aui-flex-mar .aui-flex-head {
+  width: 4.4rem;
+}
+.gs-extract-careful {
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  padding-left: 0.2rem;
+}
+.gs-extract-careful dd {
+  margin-left: 0.2rem;
+}
+.gs-extract-withdrawal-list .gs-extract-1 {
+  font-size: 0.24rem;
+}
+.gs-extract-withdrawal-list .gs-extract-2 {
+  font-size: 0.24rem;
+}
+.gs-extract-withdrawal-list .gs-extract-3 {
+  text-align: left;
+  font-size: 0.2rem;
+}
+.mescroll .gs-nav-cat li:nth-child(1),
+.mescroll .gs-table-tbody .gs-table-td:nth-child(1) {
+  width: 2.45rem;
+}
+.mescroll .gs-nav-cat li:nth-child(2),
+.mescroll .gs-table-tbody .gs-table-td:nth-child(2) {
+  width: 2.45rem;
+}
+.mescroll .gs-nav-cat li:nth-child(3),
+.mescroll .gs-table-tbody .gs-table-td:nth-child(3) {
+  width: 2.45rem;
+}
+.gs-prepend-html {
+  min-height: 2.5rem;
+}
+/*# sourceMappingURL=extract_withdrawal_benefit.css.map */

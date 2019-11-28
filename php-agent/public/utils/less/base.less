@@ -1,0 +1,43 @@
+@import "variables";
+.prefix(@css,@value) {
+  .key-css(@pre) {
+    @key:~"@{pre}@{css}";
+      @{key}:@value;
+    }
+  .key-css("-moz-");
+  .key-css("-webkit-");
+  .key-css("-o-");
+  .key-css("-ms-");
+  .key-css("");
+  }
+.background-image(@url,@repeat:no-repeat,@bgColor:transparent,@baseUrl:@image-url,@size:100%) {
+  background:url(~"@{baseUrl}@{url}") @repeat @bgColor;
+  background-size: @size;
+  }
+.background-image-base(@url,@repeat:no-repeat,@bgColor:transparent,@baseUrl:@image-url-base) {
+  background:url(~"@{baseUrl}@{url}") @repeat @bgColor;
+  }
+.inline-block() {
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  }
+.rounded-corners (@radius: 5) {
+  .prefix("border-radius", @radius);
+  }
+.absolute-center(@w,@h,@p:absolute,@Zindex:0) {
+  top:50%;
+  left:50%;
+  width:@w;
+  height:@h;
+  position:@p;
+  margin-top:-@h/2;
+  margin-left:-@w/2-10;
+  z-index:@Zindex;
+  }
+.transition(@t) {
+  .prefix("transition", @t);
+  }
+
+
+

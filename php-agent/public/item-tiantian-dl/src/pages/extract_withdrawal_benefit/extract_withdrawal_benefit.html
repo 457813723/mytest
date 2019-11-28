@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>推广佣金提现</title>
+    <link rel="stylesheet" type="text/css" href="../../app.css?rev=@@hash"/>
+    <link rel="stylesheet" href="../../utils/plugs/mescroll/mescroll.min.css?rev=@@hash">
+    <link rel="stylesheet" type="text/css" href="extract_withdrawal_benefit.css?rev=@@hash"/>
+    <script src="../../app.js?rev=@@hash"></script>
+</head>
+<body class="gs-layout" data-layout="100*750">
+
+<div class="gs-wrap">
+    <header class="gs-nav-bar gs-nav-bar-fixed">
+        <a href="javascript:;" class="gs-navBar-item gs-go-index">
+            <i class="gs-icon icon-return"></i>
+        </a>
+        <div class="gs-center">
+            <span class="gs-center-title">推广佣金提现</span>
+        </div>
+    </header>
+    <div class="gs-wrap-cont gs-game-record">
+
+
+        <!--滑动区域-->
+        <div id="mescroll" class="mescroll">
+            <div class="gs-prepend-html">
+
+            </div>
+            <!--<div class="aui-flex aui-flex-mar b-line">-->
+                <!--<div class="aui-flex-head">累计大区整线收益（元）：</div>-->
+                <!--<div class="aui-flex-box" id="daqushouyi">0:00</div>-->
+            <!--</div>-->
+            <!--<div class="aui-flex aui-flex-mar b-line">-->
+                <!--<div class="aui-flex-head">三级累计返利（元）：</div>-->
+                <!--<div class="aui-flex-box" id="sanjifanli">-->
+                    <!--0:00-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="aui-flex aui-flex-mar b-line">-->
+                <!--<div class="aui-flex-head">今日可提 （大区可提+三级返利余额）：</div>-->
+                <!--<div class="aui-flex-box" id="canCarryToday">-->
+                    <!--0:00-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="aui-flex aui-flex-mar b-line">-->
+                <!--<div class="aui-flex-head">已提收益：</div>-->
+                <!--<div class="aui-flex-box" id="yitishouyi">-->
+                    <!--0.00-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <div class="gs-extract-withdrawal hide">
+                <div class="gs-extract-withdrawal-list">
+                    <div class="gs-extract-1">提现金额确认</div>
+                    <div class="gs-extract-2 f-tal">发放金币：</div>
+                    <div class="aui-palace f-cb mb20" id="palace-grid-list">
+                        <span class="aui-palace-grid" data-coins="10">10</span>
+                        <span class="aui-palace-grid" data-coins="20">20</span>
+                        <span class="aui-palace-grid" data-coins="50">50</span>
+                        <span class="aui-palace-grid active" data-coins="100">100</span>
+                        <span class="aui-palace-grid" data-coins="200">200</span>
+                        <span class="aui-palace-grid" data-coins="500">500</span>
+                        <span class="aui-palace-grid" data-coins="1000">1000</span>
+                        <span class="aui-palace-grid" data-coins="3000">3000</span>
+                        <span class="aui-palace-grid" data-coins="5000">5000</span>
+                        <span class="aui-palace-grid" data-coins="10000">10000</span>
+                    </div>
+                    <dl class="gs-extract-3">
+                        <dt>注：</dt>
+                        <dd>1.收益提现通过邮件发放。</dd>
+                        <dd>2.每日凌晨两点结算前一日大区收益。</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="gs-divHeight mb40"></div>
+            <div class="gs-extract-btn mt30 mb40 f-tac">
+                <a href="javascript:;" class="gs-btn gs-btn-info" id="send-to-game">提现</a>
+                <!--<a href="javascript:;" class="gs-btn gs-btn-success gs-go-extract-operation-record">操作记录</a>-->
+            </div>
+            <!--<div class=" gs-extract-careful">-->
+            <!--<dl>-->
+            <!--<dt>注：</dt>-->
+            <!--<dd>1.每天一个账号发送一次</dd>-->
+            <!--<dd>2.有问题请联系客服</dd>-->
+            <!--</dl>-->
+
+            <!--</div>-->
+
+
+            <!--固定区域-->
+            <div id="navWarp" class="nav-sticky">
+                <div id="navContent" class="nav">
+                    <ul class="gs-nav-cat f-cb">
+                        <li>时间</li>
+                        <li>发放金币</li>
+                        <li>状态</li>
+                    </ul>
+                </div>
+            </div>
+            <!--upscrollWarp用于装载上拉进度和数据列表,避免清空列表不满屏,导致点击悬浮菜单时会滑下来-->
+            <div id="upscrollWarp">
+                <!--展示上拉加载的数据列表-->
+                <ul id="dataList" class="data-list gs-table-tbody">
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="../../utils/plugs/layer.mobile/layer.js?rev=@@hash"></script>
+<script src="../../utils/plugs/mescroll/mescroll.js?rev=@@hash"></script>
+<script src="../../app-ui.js?rev=@@hash"></script>
+<script src="extract_withdrawal_benefit.js?rev=@@hash"></script>
+</body>
+</html>
